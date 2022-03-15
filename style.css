@@ -20,6 +20,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.Header-nav {
+  display: flex;
+}
 
 .Header a {
   text-decoration: none;
@@ -50,8 +53,7 @@ body {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-left: 24px;
-  padding: 20px;
+  padding: 5%;
   gap: 16px;
 }
 /* ------STYLES PAGE CHARACTER ITEM------ */
@@ -165,4 +167,13 @@ footer {
 .about img {
   width: 8%;
   height: 80%;
+}
+@media screen and (max-width: 480px) {
+  .Header-nav {
+    flex-direction: column;
+  }
+  .Characters {
+    justify-content: center;
+    text-align: center;
+  }
 }
