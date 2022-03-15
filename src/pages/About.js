@@ -7,7 +7,7 @@ const About = () => {
           through a request to the rick and morty api, 
           enter the following url to see the complete repository.
         </p>
-        <a href="/jsi/asadv">
+        <a href="https://github.com/RobertoAlaniz30/SPA-RickAndMorty">
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
         </a>
       </div>
