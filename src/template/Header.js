@@ -3,7 +3,7 @@ const Header = () => {
       <div class="Header-main">
         <div class="Header-logo">
             <a class="link-logo" href="#/">
-              <img src="http://assets.stickpng.com/images/58f37720a4fa116215a9240f.png" />
+              <img src="src/images/logo.png" />
             </a>
         </div>
         <div class="Header-nav">
