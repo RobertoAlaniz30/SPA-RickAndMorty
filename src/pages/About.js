@@ -1,6 +1,5 @@
 const About = () => {
     const view = `
-    <p> </p>
       <div class="about">
         <p>Welcome to my rick and morty page, 
           a small project where you can obtain information of the characters of this animated series, 
@@ -8,7 +7,7 @@ const About = () => {
           enter the following url to see the complete repository.
         </p>
         <a href="https://github.com/RobertoAlaniz30/SPA-RickAndMorty">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+            <img src="src/images/github.png" />
         </a>
       </div>
       `;

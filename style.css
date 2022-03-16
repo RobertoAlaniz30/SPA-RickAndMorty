@@ -6,6 +6,7 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+/* ---- STYLES TAGS ---- */
 body {
   margin: 0;
   padding: 0;
@@ -13,15 +14,19 @@ body {
   color: #3c484e;
   font-family: "Open Sans", sans-serif;
 }
+section {
+  width: 100%;
+}
 
-.Header-main {
-  background-color: white;
+footer {
+  text-align: center;
+}
+
+/* ---- STYLES COMPONENT HEADER ---- */
+.Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.Header-nav {
-  display: flex;
 }
 
 .Header a {
@@ -40,7 +45,7 @@ body {
 .link-logo img:hover {
   box-shadow: 12px 12px 12px rgb(59, 221, 113);
 }
-
+/* ---- STYLES PAGE ABOUT ---- */
 .Main {
   padding: 10px;
   grid-template-columns: minmax(auto, 976px);
@@ -56,6 +61,7 @@ body {
   padding: 5%;
   gap: 16px;
 }
+
 /* ------STYLES PAGE CHARACTER ITEM------ */
 .Character-item a h2 {
   color: rgb(32, 31, 31);
@@ -136,10 +142,6 @@ a {
   text-align: center;
 }
 
-footer {
-  text-align: center;
-}
-
 .Characters-card h3 {
   font-size: 18px;
   font-weight: 400;
@@ -149,11 +151,12 @@ footer {
 
 /* -----STYLES PAGE ABOUT----- */
 .about {
+  box-sizing: border-box;
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
     1px 3px 8px rgba(39, 44, 49, 0.03);
   border-radius: 5px;
-  margin: 10%;
+  margin: 0;
   padding: 10%;
   margin-top: 5%;
   display: grid;
@@ -168,12 +171,26 @@ footer {
   width: 8%;
   height: 80%;
 }
+
+/* -----RESPONSIVE ----- */
 @media screen and (max-width: 480px) {
   .Header-nav {
+    display: flex;
     flex-direction: column;
   }
   .Characters {
     justify-content: center;
     text-align: center;
+  }
+  .about {
+    box-sizing: border-box;
+    width: 100%;
+    position: center;
+  }
+}
+@media screen and (max-width: 686px) {
+  .Header {
+    justify-content: center;
+    flex-direction: column;
   }
 }

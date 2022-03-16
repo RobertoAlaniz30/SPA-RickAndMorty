@@ -1,6 +1,5 @@
 const Header = () => {
     const view = `
-      <div class="Header-main">
         <div class="Header-logo">
             <a class="link-logo" href="#/">
               <img src="src/images/logo.png" />
@@ -14,9 +13,9 @@ const Header = () => {
             Home
           </a>
         </div>
-      </div>
     `;
     return view;
   };
   
   export default Header;
+  
