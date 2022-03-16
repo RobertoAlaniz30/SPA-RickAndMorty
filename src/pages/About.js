@@ -7,7 +7,7 @@ const About = () => {
           enter the following url to see the complete repository.
         </p>
         <a href="https://github.com/RobertoAlaniz30/SPA-RickAndMorty">
-            <img src="src/images/github.png" />
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
         </a>
       </div>
       `;
