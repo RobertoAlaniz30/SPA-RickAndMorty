@@ -2,7 +2,7 @@ const Header = () => {
     const view = `
         <div class="Header-logo">
             <a class="link-logo" href="#/">
-              <img src="http://assets.stickpng.com/images/58f37720a4fa116215a9240f.png" />
+              <img src="https://logos-marcas.com/wp-content/uploads/2022/01/Rick-And-Morty-Logo.png" />
             </a>
         </div>
         <div class="Header-nav">
